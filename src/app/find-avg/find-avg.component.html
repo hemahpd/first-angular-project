@@ -1,0 +1,13 @@
+<h1>Enter your marks</h1>
+<form>
+  <br><br>
+  Enter mark1:<input type="text" #m1>
+  <br><br>
+  Enter mark2:<input type="text" #m2>
+  <br><br>
+  Enter mark3:<input type="text" #m3>
+  <br><br>
+  <button (click)="average(m1.value,m2.value,m3.value)">FIND AVERAGE</button>
+</form>
+<br><br>
+<h1>Average={{result}}</h1>

@@ -1,0 +1,11 @@
+<h1>Login</h1>
+<p style="color:red">{{message}}</p>
+<form>
+  <br>
+  <br>
+  Student Name:<input [(ngModel)]="sname" name="sname" type="text">
+  <br><br>
+  Student Admission number:<input [(ngModel)]="sno" name="sno" type="text">
+  <br><br>
+  <button (click)="signIn()">LOGIN</button>
+</form>
